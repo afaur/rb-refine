@@ -11,7 +11,6 @@ class Foo
 	def make_bar(value)
 		@bar = String(value).to_bar
 	end
-
 end
 
 foo = Foo.new()
