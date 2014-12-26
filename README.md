@@ -1,4 +1,8 @@
 rb-refine
 =========
 
-Testing refinements available in ruby 2.1 and greater. 
+Testing refinements available in ruby 2.1 and greater.
+
+Instructions
+- `bundle install`
+- `rake`
