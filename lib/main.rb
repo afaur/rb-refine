@@ -4,13 +4,13 @@ require "./lib/refinements"
 # now has new methods since it
 # has `using Refinements`
 class Foo
-	using Refinements
+  using Refinements
 
-	attr_reader :bar
+  attr_reader :bar
 
-	def make_bar(value)
-		@bar = String(value).to_bar
-	end
+  def make_bar(value)
+    @bar = String(value).to_bar
+  end
 end
 
 foo = Foo.new()
